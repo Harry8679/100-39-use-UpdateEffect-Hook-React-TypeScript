@@ -73,7 +73,7 @@ export const ApiPollingDemo = () => {
               data.map((value, index) => (
                 <div
                   key={index}
-                  className="flex-1 bg-gradient-to-t from-blue-500 to-purple-500 rounded-t transition-all duration-300"
+                  className="flex-1 bg-linear-to-t from-blue-500 to-purple-500 rounded-t transition-all duration-300"
                   style={{ height: `${value}%` }}
                   title={`Valeur: ${value}`}
                 />
