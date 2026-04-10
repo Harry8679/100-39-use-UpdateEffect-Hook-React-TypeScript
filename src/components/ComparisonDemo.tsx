@@ -25,7 +25,7 @@ export const ComparisonDemo = () => {
 
       <div className="space-y-6">
         {/* Counter */}
-        <div className="p-8 bg-gradient-to-br from-orange-100 to-red-100 dark:from-orange-900/20 dark:to-red-900/20 rounded-xl text-center">
+        <div className="p-8 bg-linear-to-br from-orange-100 to-red-100 dark:from-orange-900/20 dark:to-red-900/20 rounded-xl text-center">
           <div className="text-6xl font-bold text-orange-600 dark:text-orange-400 mb-4">
             {count}
           </div>
