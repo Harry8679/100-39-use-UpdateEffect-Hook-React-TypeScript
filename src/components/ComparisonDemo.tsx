@@ -8,6 +8,7 @@ export const ComparisonDemo = () => {
 
   // useEffect s'exécute à chaque render (y compris le premier)
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setUseEffectCalls((c) => c + 1);
   }, [count]);
 
