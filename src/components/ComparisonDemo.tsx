@@ -84,7 +84,7 @@ export const ComparisonDemo = () => {
         </div>
 
         {/* Info */}
-        <div className="p-6 bg-gradient-to-r from-blue-100 to-green-100 dark:from-blue-900/20 dark:to-green-900/20 rounded-xl">
+        <div className="p-6 bg-linear-to-r from-blue-100 to-green-100 dark:from-blue-900/20 dark:to-green-900/20 rounded-xl">
           <h4 className="font-bold text-gray-800 dark:text-white mb-4">
             Différences clés :
           </h4>
