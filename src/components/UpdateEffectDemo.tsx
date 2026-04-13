@@ -2,7 +2,7 @@ import { BasicUpdateEffectDemo } from './BasicUpdateEffectDemo';
 import { CounterNotificationDemo } from './CounterNotificationDemo';
 import { SearchDebounceDemo } from './SearchDebounceDemo';
 import { FormValidationDemo } from './FormValidationDemo';
-import { FilterPersistenceDemo } from './FilterPersistenceDemo';
+// import { FilterPersistenceDemo } from './FilterPersistenceDemo';
 import { ApiPollingDemo } from './ApiPollingDemo';
 import { ComparisonDemo } from './ComparisonDemo';
 
