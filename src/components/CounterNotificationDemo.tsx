@@ -23,7 +23,7 @@ export const CounterNotificationDemo = () => {
 
       <div className="space-y-6">
         {/* Counter */}
-        <div className="p-12 bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl text-center">
+        <div className="p-12 bg-linear-to-br from-purple-100 to-pink-100 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl text-center">
           <div className="text-7xl font-bold text-purple-600 dark:text-purple-400">
             {count}
           </div>
