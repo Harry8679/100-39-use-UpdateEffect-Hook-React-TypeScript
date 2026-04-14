@@ -24,6 +24,7 @@ export const FilterPersistenceDemo = () => {
   useEffect(() => {
     const saved = localStorage.getItem('product-filter');
     if (saved) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setFilter(JSON.parse(saved));
     }
   }, []);
